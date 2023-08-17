@@ -4,6 +4,11 @@ document.getElementById('withdraw').addEventListener('click',function(){
     const newInputWithdrawString =inputWithdraw.value;
     const newInputWithdraw=parseFloat(newInputWithdrawString);
 
+    if(isNaN(newInputWithdraw)){
+        alert('Provide Number Only');
+        return;
+     }
+
 
     // console.log(newInputWithdrawString);
     const withdrawTotal =document.getElementById('withdrawTotal');

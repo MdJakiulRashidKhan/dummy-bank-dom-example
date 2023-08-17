@@ -2,6 +2,8 @@ document.getElementById('deposit').addEventListener("click",function(){
     const inputDeposit= document.getElementById('inputDeposit');
     const depositAmountString= inputDeposit.value;
      const depositAmount =parseFloat(depositAmountString);
+
+     if
     const depositTotalElement =document.getElementById('depositTotal');
     
     const previousDepositTotalString =depositTotalElement.innerText;
